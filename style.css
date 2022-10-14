@@ -279,13 +279,15 @@ footer.row {
 /* Navbar Contact Button */
 .navbar-nav .outline.pink {
   border-color: #df3778;
-  color: #df3778;
+	background-color: #df3778;
+  color: #fffefd;
+	font-family: 'Unica One';
   margin: 20px 15px 0;
   padding-top: 0;
 }
 .navbar-nav .outline.pink:focus,
 .navbar-nav .outline.pink:hover {
-  background-color: #df3778;
+  background-color: #CA165C;
   color: #fffefd;
   text-decoration: none;
 }
