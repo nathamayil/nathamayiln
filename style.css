@@ -1,6 +1,3 @@
-/* =====================
-  General Styles
-===================== */
 html { font-size: 110%; }
 html, body {
   height: 100%; /* Fullscreen BG */
@@ -50,9 +47,8 @@ hr {
   margin: 30px 0 60px;
 }
 
-/* =====================
-  Navbar Styles
-===================== */
+/* 
+  Navbar Styles*/
 .navbar-default {
   background-color: transparent;
   border: none;
@@ -141,9 +137,8 @@ hr {
   opacity: 1;
 }
 
-/* =====================
-  Jumbotron Styles
-===================== */
+/* 
+  Jumbotron Styles */
 .jumbotron {
   background: linear-gradient(rgba(255,254,253,0.9), rgba(255,254,253,0.9)), url("https://github.com/tiffanyadu/portfolio/blob/master/assets/imgs/jumbotron.jpg?raw=true") center center fixed;
   background-size: cover;
@@ -174,9 +169,8 @@ hr {
   margin: 0;
 }
 
-/* =====================
-  Containers
-===================== */
+/* 
+  Containers*/
 section.row,
 footer.row {
   padding: 30px 30px 60px;
@@ -260,7 +254,8 @@ footer.row {
 }
 .outline.green {
   border-color: #29a598;
-	background-color: #29a598;
+  font-family: 'Unica One';
+  background-color: #29a598;
   color: #fffefd;
 }
 .outline.green:focus,
@@ -270,12 +265,14 @@ footer.row {
 }
 .outline.white {
   border-color: #fffefd;
-  color: #fffefd;
+background-color: #fffefd;
+font-family: 'Unica One';
+  color: #df3778;
 }
 .outline.white:focus,
 .outline.white:hover {
-  background-color: #fffefd;
-  color: #df3778;
+  background-color: #EF73A3;
+  color: #fffefd;
 }
 /* Navbar Contact Button */
 .navbar-nav .outline.pink {
@@ -327,9 +324,8 @@ font-family: 'Unica One';
   max-width: 100%;
 }
 
-/* =====================
-  Icons and Images
-===================== */
+
+/*  Icons and Images*/
 .icon {
   max-height: 90px;
 }
@@ -346,9 +342,8 @@ font-family: 'Unica One';
   color: #df3778;
 }
 
-/* =====================
-  Resume Modal
-===================== */
+/* 
+  Resume Modal*/
 #resumeModal h4 {
   margin-top: 0;
 }
@@ -356,9 +351,9 @@ font-family: 'Unica One';
   text-align: right;
 }
 
-/* =====================
+/* 
   Portfolio Projects
-===================== */
+*/
 #projects .carousel-control {
   background: none;
   color: #fffefd;
@@ -431,9 +426,8 @@ font-family: 'Unica One';
   text-align: center;
 }
 
-/* =====================
-  Other Styles
-===================== */
+/* 
+  Misc Styles */
 .mb-0 {
   margin-bottom: 0;
 }
@@ -486,9 +480,8 @@ font-family: 'Unica One';
   display: none;
 }
 
-/* =====================
-  Media Queries
-===================== */
+/* 
+  Media Adjustments*/
 @media (max-width: 1199px) {
   /* Center class for medium screens */
   .md-center { text-align: center; }
